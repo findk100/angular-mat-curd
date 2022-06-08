@@ -1,0 +1,14 @@
+<h1>{{data}}</h1>
+
+<button [disabled]="btnstattus">Click</button>
+<br> <br>
+
+<button disabled={{btnstattus}}>Click</button>
+<br> <br>
+
+<button (click)=" changetitle()">Change tittle </button>
+ <br> <br>
+
+<input type="text" [(ngModel)]="username" >
+
+<h2>Welcome {{username}} to this page </h2>

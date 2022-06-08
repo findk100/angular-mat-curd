@@ -1,0 +1,44 @@
+<form [formGroup]="formValue">
+  <div class="example-container">
+    <h1>Restaurent Records Management Form</h1>
+    <mat-form-field appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="Enter Your Name" formControlName="name">
+
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Email Id</mat-label>
+      <input matInput placeholder="Enter Your Email Id" formControlName="email">
+
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Mobile</mat-label>
+      <input matInput placeholder="Enter Your Mobile" formControlName="mobile">
+
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Address</mat-label>
+      <input matInput placeholder="Enter Your Address" formControlName="address">
+
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Services</mat-label>
+      <input matInput placeholder="Enter Your Services" formControlName="services">
+
+    </mat-form-field>
+
+    <button (click)="addResto()" mat-button color="primary">ADD</button>
+    <button style="margin:10px ;" mat-raised-button color="warn" mat-dialog-close>{{actionbtn}}</button>
+
+
+
+
+
+
+
+  </div>
+</form>

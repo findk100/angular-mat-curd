@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Ashish ",
+      "email": "keshavjha@gmail.com",
+      "mobile": "9987304752",
+      "address": "Mumbai",
+      "services": "xyz"
+    },
+    {
+      "id": 2,
+      "name": "Pradeep",
+      "email": "Pradeep@gmal.com",
+      "mobile": "9398313547",
+      "address": "Hyderabad",
+      "services": "abc"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
